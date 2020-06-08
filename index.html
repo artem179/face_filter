@@ -1,0 +1,97 @@
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================-->
+
+<html>
+<!--<head>-->
+<!--    <style>-->
+<!--        .canvas-wrapper, #scatter-gl-container {-->
+<!--            display: inline-block;-->
+<!--            vertical-align: top;-->
+<!--        }-->
+
+<!--        #scatter-gl-container {-->
+<!--            border: solid 1px black;-->
+<!--            position: relative;-->
+<!--        }-->
+
+<!--        /* center the canvas within its wrapper */-->
+<!--        #scatter-gl-container canvas {-->
+<!--            transform: translate3d(-50%, -50%, 0);-->
+<!--            left: 50%;-->
+<!--            top: 50%;-->
+<!--            position: absolute;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<body>
+<div id="main">
+    <div class="container">
+        <div class="canvas-wrapper">
+            <canvas id="output"></canvas>
+            <img id="image" src="./images/face2.jpg" style="display: none">
+        </div>
+        <div id="scatter-gl-container"></div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/three.js"></script>
+<script src="render_scene.js"></script>
+
+
+
+<!--<head>-->
+<!--    &lt;!&ndash; Load three.js &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/three@0.106.2/build/three.min.js"></script>-->
+<!--    &lt;!&ndash; Load scatter-gl.js &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/scatter-gl@0.0.1/lib/scatter-gl.min.js"></script>-->
+<!--    <style>-->
+<!--        .canvas-wrapper, #scatter-gl-container {-->
+<!--            display: inline-block;-->
+<!--            vertical-align: top;-->
+<!--        }-->
+
+<!--        #scatter-gl-container {-->
+<!--            border: solid 1px black;-->
+<!--            position: relative;-->
+<!--        }-->
+
+<!--        /* center the canvas within its wrapper */-->
+<!--        #scatter-gl-container canvas {-->
+<!--            transform: translate3d(-50%, -50%, 0);-->
+<!--            left: 50%;-->
+<!--            top: 50%;-->
+<!--            position: absolute;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="main">-->
+<!--    <div class="container">-->
+<!--        <div class="canvas-wrapper">-->
+<!--            <canvas id="output"></canvas>-->
+<!--            <img id="image" src="./images/face.jpg" style="display: none">-->
+<!--&lt;!&ndash;            <video id="video" playsinline style="&ndash;&gt;-->
+<!--&lt;!&ndash;          -webkit-transform: scaleX(-1);&ndash;&gt;-->
+<!--&lt;!&ndash;          transform: scaleX(-1);&ndash;&gt;-->
+<!--&lt;!&ndash;          visibility: hidden;&ndash;&gt;-->
+<!--&lt;!&ndash;          width: auto;&ndash;&gt;-->
+<!--&lt;!&ndash;          height: auto;&ndash;&gt;-->
+<!--&lt;!&ndash;          ">&ndash;&gt;-->
+<!--&lt;!&ndash;            </video>&ndash;&gt;-->
+<!--        </div>-->
+<!--        <div id="scatter-gl-container"></div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>-->
+<!--<script src="index.js"></script>-->
