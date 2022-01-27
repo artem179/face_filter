@@ -14,7 +14,7 @@
     "@tensorflow/tfjs-converter": "^1.6.1",
     "@tensorflow/tfjs-core": "^1.6.1",
     "stats.js": "^0.17.0",
-    "three": "^0.117.1"
+    "three": "^0.137.0"
   },
   "scripts": {
     "watch": "cross-env NODE_ENV=development parcel index.html --https --port 8000 --no-hmr --target browser",
